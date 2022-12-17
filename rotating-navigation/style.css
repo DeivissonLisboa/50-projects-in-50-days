@@ -41,6 +41,7 @@ body {
 }
 
 .circle button {
+  cursor: pointer;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -67,4 +68,24 @@ body {
 
 .content img {
   max-width: 100%;
+}
+
+.content {
+  max-width: 50rem;
+  margin: 3rem auto;
+}
+
+.content h1 {
+  margin: 0;
+}
+
+.content small {
+  color: #555;
+  font-style: italic;
+}
+
+.content p {
+  color: #333;
+  line-height: 1.5;
+  text-align: justify;
 }
