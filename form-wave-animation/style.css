@@ -78,3 +78,9 @@ body {
 .text {
   margin-top: 2rem;
 }
+
+.form-control label {
+  position: absolute;
+  top: 1rem;
+  left: 0;
+}
