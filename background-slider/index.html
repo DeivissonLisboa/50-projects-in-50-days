@@ -4,18 +4,61 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
       integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    /> -->
+    />
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
-    <title>Project Starter</title>
+    <title>Background Slider</title>
   </head>
   <body>
-    <h1>Project Starter</h1>
+    <div class="slider-container">
+      <div
+        class="slide active"
+        style="
+          background-image: url('https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+        "
+      ></div>
+
+      <div
+        class="slide"
+        style="
+          background-image: url('https://images.unsplash.com/photo-1508739773434-c26b3d09e071?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+        "
+      ></div>
+
+      <div
+        class="slide"
+        style="
+          background-image: url('https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+        "
+      ></div>
+
+      <div
+        class="slide"
+        style="
+          background-image: url('https://images.unsplash.com/photo-1553422734-fd8dd260a116?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80');
+        "
+      ></div>
+
+      <div
+        class="slide"
+        style="
+          background-image: url('https://images.unsplash.com/photo-1614605008553-d98daabfa5b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+        "
+      ></div>
+
+      <button class="arrow left-arrow" id="left">
+        <i class="fas fa-arrow-left"></i>
+      </button>
+
+      <button class="arrow right-arrow" id="right">
+        <i class="fas fa-arrow-right"></i>
+      </button>
+    </div>
   </body>
 </html>
