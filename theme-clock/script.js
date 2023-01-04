@@ -51,6 +51,8 @@ function setTime() {
     0,
     360
   )}deg)`
+
+  timeDiv.innerHTML = `${hour}:${minutes < 10 ? "0" + minutes : minutes}`
 }
 
 setTime()
