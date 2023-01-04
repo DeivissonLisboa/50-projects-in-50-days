@@ -16,3 +16,43 @@ toggleBtn.addEventListener("click", (e) => {
 
   document.querySelector("html").classList.toggle("dark")
 })
+
+function map(num, in_min, in_max, out_min, out_max) {
+  return ((num - in_min) * (out_max - out_min)) / (in_max - in_min) + out_min
+}
+
+function setTime() {
+  const time = new Date()
+  const month = time.getMonth()
+  const day = time.getDay()
+  const hour = time.getHours()
+  const clockHour = hour % 12
+  const minutes = time.getMinutes()
+  const seconds = time.getSeconds()
+
+  hourDiv.style.transform = `translate(-50%, -100%) rotate(${map(
+    clockHour,
+    0,
+    11,
+    0,
+    360
+  )}deg)`
+  minuteDiv.style.transform = `translate(-50%, -100%) rotate(${map(
+    minutes,
+    0,
+    59,
+    0,
+    360
+  )}deg)`
+  secondDiv.style.transform = `translate(-50%, -100%) rotate(${map(
+    seconds,
+    0,
+    59,
+    0,
+    360
+  )}deg)`
+}
+
+setTime()
+
+setInterval(setTime, 1000)
