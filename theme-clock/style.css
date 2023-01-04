@@ -1,16 +1,49 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Heebo:300&display=swap");
+
+:root {
+  --primary-color: #000;
+  --secundary-color: #fff;
+}
+
+html {
+  transition: 0.5s ease-in;
+}
+
+html.dark {
+  --primary-color: #fff;
+  --secundary-color: #333;
+}
+
+html.dark {
+  background-color: #111;
+  color: var(--primary-color);
+}
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Heebo", sans-serif;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
   overflow: hidden;
   margin: 0;
+}
+
+.toggle {
+  background-color: var(--primary-color);
+  color: var(--secundary-color);
+  border: 0;
+  border-radius: 0.2rem;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  top: 15%;
+  cursor: pointer;
+}
+
+.toggle:focus {
+  outline: 0;
 }
