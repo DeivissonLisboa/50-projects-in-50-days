@@ -86,6 +86,7 @@ body {
 .needle.second {
   transform: translate(-50%, -100%) rotate(0deg);
   height: 100px;
+  width: 2px;
   background-color: #e74c3c;
   z-index: 1;
 }
