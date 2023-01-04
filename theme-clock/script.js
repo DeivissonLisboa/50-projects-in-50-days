@@ -23,8 +23,6 @@ function map(num, in_min, in_max, out_min, out_max) {
 
 function setTime() {
   const time = new Date()
-  const month = time.getMonth()
-  const day = time.getDay()
   const hour = time.getHours()
   const clockHour = hour % 12
   const minutes = time.getMinutes()
@@ -53,6 +51,14 @@ function setTime() {
   )}deg)`
 
   timeDiv.innerHTML = `${hour}:${minutes < 10 ? "0" + minutes : minutes}`
+
+  const date = time.toLocaleDateString([], {
+    weekday: "long",
+    month: "long",
+  })
+  dateDiv.innerText = date.split(" ").join(", ") + " "
+
+  dateDiv.innerHTML += `<span class="circle">${time.getDay() + 1}</span>`
 }
 
 setTime()
