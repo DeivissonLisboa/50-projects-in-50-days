@@ -28,24 +28,26 @@ function setTime() {
   const minutes = time.getMinutes()
   const seconds = time.getSeconds()
 
+  console.log(23 % 12)
+
   hourDiv.style.transform = `translate(-50%, -100%) rotate(${map(
     clockHour,
     0,
-    11,
+    12,
     0,
     360
   )}deg)`
   minuteDiv.style.transform = `translate(-50%, -100%) rotate(${map(
     minutes,
     0,
-    59,
+    60,
     0,
     360
   )}deg)`
   secondDiv.style.transform = `translate(-50%, -100%) rotate(${map(
     seconds,
     0,
-    59,
+    60,
     0,
     360
   )}deg)`
@@ -57,7 +59,6 @@ function setTime() {
     month: "long",
   })
   dateDiv.innerText = date.split(" ").join(", ") + " "
-
   dateDiv.innerHTML += `<span class="circle">${time.getDay() + 1}</span>`
 }
 
