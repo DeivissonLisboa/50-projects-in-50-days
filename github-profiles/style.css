@@ -110,4 +110,8 @@ body {
     flex-direction: column;
     align-items: center;
   }
+
+  .user-info ul {
+    flex-direction: column;
+  }
 }
