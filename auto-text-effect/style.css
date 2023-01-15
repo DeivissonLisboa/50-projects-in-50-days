@@ -5,6 +5,7 @@
 }
 
 body {
+  background-color: #e9967a;
   font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
@@ -13,4 +14,25 @@ body {
   height: 100vh;
   overflow: hidden;
   margin: 0;
+}
+
+div {
+  position: absolute;
+  bottom: 2rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+}
+
+input {
+  width: 3rem;
+  padding: 0.2rem;
+  font-size: 1rem;
+  background-color: #e9967a;
+  border: none;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
 }
