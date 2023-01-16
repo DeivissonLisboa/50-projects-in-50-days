@@ -4,18 +4,49 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
       integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    /> -->
+    />
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
-    <title>Project Starter</title>
+    <title>Password Generator</title>
   </head>
   <body>
-    <h1>Project Starter</h1>
+    <div class="container">
+      <h2>Password Generator</h2>
+      <div class="result-container">
+        <span class="result"></span>
+        <button class="btn" id="clipboard">
+          <i class="far fa-clipboard"></i>
+        </button>
+      </div>
+      <div class="settings">
+        <div class="seetign">
+          <label>Password Length</label>
+          <input type="number" id="length" min="6" max="20" value="20" />
+        </div>
+        <div class="setting">
+          <label>Uppercase Letters</label>
+          <input type="checkbox" name="" id="uppercase" checked />
+        </div>
+        <div class="setting">
+          <label>Lowercase Letters</label>
+          <input type="checkbox" name="" id="lowercase" checked />
+        </div>
+        <div class="setting">
+          <label>Numbers</label>
+          <input type="checkbox" name="" id="numbers" checked />
+        </div>
+        <div class="setting">
+          <label>Symbols</label>
+          <input type="checkbox" name="" id="symbols" checked />
+        </div>
+      </div>
+      <button class="btn btn-large" id="generate">Generate Password</button>
+    </div>
   </body>
 </html>
