@@ -13,6 +13,13 @@
     />
     <link rel="stylesheet" href="style.css" />
     <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/2.4.3/purify.min.js"
+      integrity="sha512-3dcbndbDLLWfKWevQu8C/1qVRcxx6h+eRDSnn3/pcBZHISRJgsj3u71U/Ad6nQVHrEi05hOSr6Hnb/p0pWc94w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      defer
+    ></script>
+    <script
       src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.2.12/marked.min.js"
       integrity="sha512-uwSxMaa/W7dmSIXEd07BMVymisMRRUS/Pr5a76AquekKKu9HWn4rBiCd+ZtwqnoijAJvttdrz8krzP26kZjg0Q=="
       crossorigin="anonymous"
@@ -24,19 +31,5 @@
   </head>
   <body>
     <button class="add" id="add"><i class="fas fa-plus"></i> Add note</button>
-
-    <div class="note">
-      <div class="tools">
-        <button class="edit">
-          <i class="fas fa-edit"></i>
-        </button>
-        <button class="delete">
-          <i class="fas fa-trash-alt"></i>
-        </button>
-      </div>
-
-      <div class="hidden"></div>
-      <textarea></textarea>
-    </div>
   </body>
 </html>
