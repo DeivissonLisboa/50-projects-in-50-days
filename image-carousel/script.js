@@ -25,7 +25,18 @@ function prevImage() {
   idx--
 }
 
-nextBtn.addEventListener("click", () => nextImage())
-prevBtn.addEventListener("click", () => prevImage())
+let interval = setInterval(nextImage, 2500)
 
-setInterval(() => nextImage(), 2500)
+function resetInterval() {
+  clearInterval(interval)
+  interval = setInterval(nextImage, 2500)
+}
+
+prevBtn.addEventListener("click", () => {
+  prevImage()
+  resetInterval()
+})
+nextBtn.addEventListener("click", () => {
+  nextImage()
+  resetInterval()
+})
