@@ -42,7 +42,7 @@ h1 {
   border-radius: 50%;
   width: 120px;
   height: 120px;
-  text-align: center;
+  margin: 0 auto;
   position: relative;
 }
 
