@@ -19,11 +19,11 @@ const COLORS = {
 const API_URL = "https://pokeapi.co/api/v2/pokemon/"
 
 function createPokemonCard({ id, name, sprites: { front_default }, types }) {
-  const type = types[0].type.name
+  const pokemonTypes = types.map((pokemon) => pokemon.type.name)
 
   const card = document.createElement("div")
   card.classList.add("pokemon")
-  card.style.backgroundColor = COLORS[type]
+  card.style.backgroundColor = COLORS[pokemonTypes[0]]
   card.innerHTML = `
     <div class="img-container" style="image-rendering: pixelated">
       <img
@@ -34,7 +34,7 @@ function createPokemonCard({ id, name, sprites: { front_default }, types }) {
     <div class="info">
       <span class="number">#${id.toString().padStart(3, "0")}</span>
       <h3 class="name">${name}</h3>
-      <small class="type">Type: <span>${type}</span></small>
+      <small class="type">Type: <span>${pokemonTypes.join(", ")}</span></small>
     </div>
   `
 
