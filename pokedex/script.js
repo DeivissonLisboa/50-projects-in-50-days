@@ -25,17 +25,18 @@ function createPokemonCard({ id, name, sprites: { front_default }, types }) {
   card.classList.add("pokemon")
   card.style.backgroundColor = COLORS[type]
   card.innerHTML = `
-  <div class="img-container" style="image-rendering: pixelated">
-    <img
-      src="${front_default}"
-      alt=""
-    />
-  </div>
-  <div class="info">
-    <span class="number">#${id}</span>
-    <h3 class="name">${name}</h3>
-    <small class="type">Type: <span>${type}</span></small>
-  </div>`
+    <div class="img-container" style="image-rendering: pixelated">
+      <img
+        src="${front_default}"
+        alt=""
+      />
+    </div>
+    <div class="info">
+      <span class="number">#${id.toString().padStart(3, "0")}</span>
+      <h3 class="name">${name}</h3>
+      <small class="type">Type: <span>${type}</span></small>
+    </div>
+  `
 
   CONTAINER.appendChild(card)
 }
@@ -48,7 +49,11 @@ async function getPokemon(id) {
 
 async function getPokemonList() {
   for (let i = 1; i <= NUMBER_OF_POKEMON; i++) {
-    await getPokemon(i)
+    try {
+      await getPokemon(i)
+    } catch (error) {
+      console.log(i, error.message)
+    }
   }
 }
 
