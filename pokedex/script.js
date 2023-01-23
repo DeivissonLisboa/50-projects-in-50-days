@@ -1,5 +1,5 @@
 const CONTAINER = document.getElementById("container")
-const NUMBER_OF_POKEMON = 150
+const POKEMON_PER_PAGE = 150
 const COLORS = {
   fire: "#d14f2c",
   grass: "#46a257",
@@ -48,7 +48,7 @@ async function getPokemon(id) {
 }
 
 async function getPokemonList() {
-  for (let i = 1; i <= NUMBER_OF_POKEMON; i++) {
+  for (let i = 1; i <= POKEMON_PER_PAGE; i++) {
     try {
       await getPokemon(i)
     } catch (error) {
