@@ -20,6 +20,7 @@ function updatePagination() {
 
   pageElements[currentPage - 1].classList.add("active")
   localStorage.setItem("currentPage", currentPage)
+  getPokemonList(currentPage)
 }
 
 function createPagination() {

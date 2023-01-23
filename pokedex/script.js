@@ -47,8 +47,15 @@ async function getPokemon(id) {
   createPokemonCard(data)
 }
 
-async function getPokemonList() {
-  for (let i = 1; i <= POKEMON_PER_PAGE; i++) {
+async function getPokemonList(offset) {
+  CONTAINER.innerHTML = ""
+
+  let pokemonCounter = (offset - 1) * POKEMON_PER_PAGE
+  for (
+    let i = 1 + pokemonCounter;
+    i <= pokemonCounter + POKEMON_PER_PAGE;
+    i++
+  ) {
     try {
       await getPokemon(i)
     } catch (error) {
@@ -57,4 +64,4 @@ async function getPokemonList() {
   }
 }
 
-getPokemonList()
+getPokemonList(localStorage.getItem("currentPage") || 1)
