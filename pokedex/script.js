@@ -1,20 +1,20 @@
 const CONTAINER = document.getElementById("container")
 const NUMBER_OF_POKEMON = 150
 const COLORS = {
-  fire: "#FDDFDF",
-  grass: "#DEFDE0",
-  electric: "#FCF7DE",
-  water: "#DEF3FD",
-  ground: "#f4e7da",
-  rock: "#d5d5d4",
-  fairy: "#fceaff",
-  poison: "#98d7a5",
-  bug: "#f8d5a3",
-  dragon: "#97b3e6",
-  psychic: "#eaeda1",
-  flying: "#F5F5F5",
-  fighting: "#E6E0D4",
-  normal: "#F5F5F5",
+  fire: "#d14f2c",
+  grass: "#46a257",
+  electric: "#f9e170",
+  water: "#5779ba",
+  ground: "#aa7146",
+  rock: "#a8a8a8",
+  fairy: "#f1b2c2",
+  poison: "#81719a",
+  bug: "#a8e058",
+  dragon: "#f9a24f",
+  psychic: "#aa79ba",
+  flying: "#a0d0f8",
+  fighting: "#c24c2c",
+  normal: "#eeebe8",
 }
 const API_URL = "https://pokeapi.co/api/v2/pokemon/"
 
