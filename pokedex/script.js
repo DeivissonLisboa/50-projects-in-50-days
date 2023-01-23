@@ -16,7 +16,7 @@ const COLORS = {
   fighting: "#c24c2c",
   normal: "#eeebe8",
 }
-const API_URL = "https://pokeapi.co/api/v2/pokemon/"
+const API_URL = "https://pokeapi.co/api/v2/pokemon?"
 
 function createPokemonCard({ id, name, sprites: { front_default }, types }) {
   const pokemonTypes = types.map((pokemon) => pokemon.type.name)
@@ -28,7 +28,7 @@ function createPokemonCard({ id, name, sprites: { front_default }, types }) {
     <div class="img-container" style="image-rendering: pixelated">
       <img
         src="${front_default}"
-        alt=""
+        alt="${name}"
       />
     </div>
     <div class="info">
@@ -41,23 +41,25 @@ function createPokemonCard({ id, name, sprites: { front_default }, types }) {
   CONTAINER.appendChild(card)
 }
 
-async function getPokemon(id) {
-  const response = await fetch(API_URL + id)
+async function getPokemon(url) {
+  const response = await fetch(url)
   const data = await response.json()
   createPokemonCard(data)
 }
 
-async function getPokemonList(offset) {
+async function getPokemonList(page) {
   CONTAINER.innerHTML = ""
+  const offset = (page - 1) * POKEMON_PER_PAGE
 
-  let pokemonCounter = (offset - 1) * POKEMON_PER_PAGE
-  for (
-    let i = 1 + pokemonCounter;
-    i <= pokemonCounter + POKEMON_PER_PAGE;
-    i++
-  ) {
+  const response = await fetch(
+    API_URL + `offset=${offset}&limit=${POKEMON_PER_PAGE}`
+  )
+  const { results } = await response.json()
+
+  console.log(results)
+  for (let i = 0; i < results.length; i++) {
     try {
-      await getPokemon(i)
+      await getPokemon(results[i].url)
     } catch (error) {
       console.log(i, error.message)
     }
