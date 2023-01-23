@@ -70,3 +70,35 @@ h1 {
   margin: 15px 0 7px;
   letter-spacing: 1px;
 }
+
+footer {
+  margin-top: 10px;
+}
+
+.pagination {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 16px;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  user-select: none;
+  box-shadow: 0 0 5px rgba(100, 100, 100, 0.5);
+}
+
+.pagination li {
+  margin: 5px;
+  padding: 10px 16px;
+  border: 1px solid #f0f0f0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.pagination li:hover {
+  border: 1px solid #333;
+}
+
+.pagination li.active {
+  color: #f0f0f0;
+  background-color: #333;
+}
