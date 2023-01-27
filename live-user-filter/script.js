@@ -27,3 +27,16 @@ async function getUsers(numberOfUsers = 50) {
 }
 
 getUsers()
+
+function filterUsers(search) {
+  USERS.forEach((user) => {
+    if (user.innerText.toLowerCase().includes(search.toLowerCase())) {
+      user.classList.remove("hide")
+    } else {
+      user.classList.add("hide")
+    }
+  })
+}
+
+FILTER_INPUT.value = ""
+FILTER_INPUT.addEventListener("input", (e) => filterUsers(e.target.value))

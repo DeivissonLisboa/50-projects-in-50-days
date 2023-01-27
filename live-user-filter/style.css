@@ -90,6 +90,6 @@ body {
   border-bottom: 1px solid #eee;
 }
 
-.user li.hode {
+.user-list li.hide {
   display: none;
 }
