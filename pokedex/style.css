@@ -13,6 +13,7 @@ body {
   align-items: center;
   justify-content: center;
   margin: 0;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -101,4 +102,10 @@ footer {
 .pagination li.active {
   color: #f0f0f0;
   background-color: #333;
+}
+
+@media (max-width: 600px) {
+  .pagination {
+    transform: scale(60%);
+  }
 }
