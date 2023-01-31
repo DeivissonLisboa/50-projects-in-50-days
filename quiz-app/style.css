@@ -12,7 +12,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  overflow: hidden;
+  /* overflow: hidden; */
   margin: 0;
 }
 
@@ -26,6 +26,7 @@ body {
 
 .quiz-header {
   padding: 4rem;
+  position: relative;
 }
 
 .quiz-header h2 {
@@ -51,6 +52,12 @@ body {
 
 .quiz-header ul li label {
   cursor: pointer;
+}
+
+.quiz-header .questions-counter {
+  position: absolute;
+  top: 5%;
+  right: 5%;
 }
 
 .quiz-container button {

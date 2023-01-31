@@ -4,8 +4,11 @@ const API_URL = "https://the-trivia-api.com/api/questions"
 let questions
 let currentQuention = 0
 let selectAnswer
+let score = 0
 
 function createQuestion(question, category, answers) {
+  QUIZ_HEADER.innerHTML = ""
+
   QUIZ_HEADER.innerHTML = `
     <h2 id="question">${question} <small>${category}</small></h2>    
   `
@@ -23,6 +26,9 @@ function createQuestion(question, category, answers) {
   })
 
   QUIZ_HEADER.append(questionsUl)
+  QUIZ_HEADER.innerHTML += `<small class="questions-counter">${
+    currentQuention + 1
+  }/${questions.length}</small>`
 }
 
 function scrambleAnswers(array) {
@@ -45,6 +51,13 @@ function nextQuestion() {
   let answers = scrambleAnswers(incorrectAnswers)
 
   createQuestion(question, category, answers)
+
+  let answersLi = document.querySelectorAll(".answer")
+  answersLi.forEach((li) => {
+    li.addEventListener("click", () => {
+      selectAnswer = li.nextElementSibling.innerText
+    })
+  })
 }
 
 async function getQuestions() {
@@ -55,3 +68,24 @@ async function getQuestions() {
 }
 
 getQuestions()
+
+SUBMIT_BUTTON.addEventListener("click", () => {
+  if (score > questions.length) {
+    window.location.reload()
+  }
+
+  if (selectAnswer === questions[currentQuention].correctAnswer) {
+    score++
+  }
+
+  currentQuention++
+
+  if (currentQuention > questions.length - 1) {
+    QUIZ_HEADER.innerHTML = `<h2>You answered ${score} of ${questions.length} questions correctly!</h2>`
+    SUBMIT_BUTTON.innerText = "Play again"
+    score = 1000
+  } else {
+    selectAnswer = undefined
+    nextQuestion()
+  }
+})
