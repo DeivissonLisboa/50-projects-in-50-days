@@ -51,3 +51,24 @@ const TESTIMONIALS = [
     text: "This guy is a young and talented IT professional, proactive and responsible, with a strong work ethic. He is very strong in PSD2HTML conversions and HTML/CSS technology. He is a quick learner, eager to learn new technologies. He is focused and has the good dynamics to achieve due dates and outstanding results.",
   },
 ]
+
+let currentIndex = 0
+
+function updateTestimonial() {
+  let { name, position, photo, text } = TESTIMONIALS[currentIndex]
+
+  USER_NAME.innerHTML = name
+  USER_ROLE.innerHTML = position
+  USER_IMAGE.src = photo
+  TESTIMONIAL_TEXT.innerHTML = text
+
+  currentIndex++
+
+  if (currentIndex === TESTIMONIALS.length) {
+    currentIndex = 0
+  }
+}
+
+updateTestimonial()
+
+setInterval(updateTestimonial, 10000)
