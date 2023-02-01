@@ -17,6 +17,22 @@ body {
   padding: 1rem;
 }
 
+.progress-bar {
+  background-color: #fff;
+  height: 4px;
+  animation: grow 10s linear infinite;
+}
+
+@keyframes grow {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
 .testimonial-container {
   background-color: #476ce4;
   color: #fff;
