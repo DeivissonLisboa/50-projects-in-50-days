@@ -1,4 +1,4 @@
-const IMAGES_SECTION = document.querySelector("main")
+const IMAGES_SECTION = document.querySelector("section")
 const UNSPLASH_URL = "https://source.unsplash.com/random/"
 
 function getRandomThreeDigits() {
@@ -7,6 +7,7 @@ function getRandomThreeDigits() {
 
 function getImage() {
   let image = document.createElement("img")
+  image.classList.add("shadow-400")
   image.src = UNSPLASH_URL + getRandomThreeDigits()
   IMAGES_SECTION.append(image)
 }
