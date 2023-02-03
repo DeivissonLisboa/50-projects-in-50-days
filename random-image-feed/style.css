@@ -32,3 +32,18 @@ img {
 .shadow-400 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+@media (min-width: 376px) {
+  section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    gap: 0.5rem;
+    max-width: 50em;
+    margin: 0 auto;
+  }
+
+  section.flow > * + * {
+    margin-top: 0;
+  }
+}
