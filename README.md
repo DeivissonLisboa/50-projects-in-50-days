@@ -44,3 +44,13 @@ This is a repository for all projects made in the course.
 | 38  | [Mobile Tab Navigation](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/mobile-tab-navigation)               |
 | 39  | [Password Strength Background](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/password-strength-background) |
 | 40  | [3d Background Boxes](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/3d-background-boxes)                   |
+| 41  | [Verify Account Ui](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/verify-account-ui)                       |
+| 42  | [Live User Filter](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/live-user-filter)                         |
+| 43  | [Feedback Ui Design](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/feedback-ui-design)                     |
+| 44  | [Custom Range Slider](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/custom-range-slider)                   |
+| 45  | [Netflix Mobile Navigation](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/netflix-navigation)              |
+| 46  | [Quiz App](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/quiz-app)                                         |
+| 47  | [Testimonial Box Switcher](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/testimonial-box-switcher)         |
+| 48  | [Random Image Feed](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/random-image-feed)                       |
+| 49  | [Todo List](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/todo-list)                                       |
+| 50  | [Insect Catch Game](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/insect-catch-game)                       |
