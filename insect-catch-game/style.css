@@ -19,7 +19,7 @@ body {
   width: 100px;
   height: 100px;
   background-image: url("insects.png");
-  background-size: 500%;
+  background-size: 501%;
   image-rendering: pixelated;
 }
 
