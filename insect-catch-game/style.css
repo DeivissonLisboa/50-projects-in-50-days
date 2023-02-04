@@ -11,6 +11,54 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  overflow: hidden;
+  /* overflow: hidden; */
   margin: 0;
+}
+
+.sprite {
+  width: 100px;
+  height: 100px;
+  background-image: url("insects.png");
+  background-size: 500%;
+  image-rendering: pixelated;
+}
+
+.insect-1 {
+  background-position: 0 0;
+}
+
+.insect-2 {
+  background-position: -100% 0;
+}
+
+.insect-3 {
+  background-position: -200% 0;
+}
+
+.insect-4 {
+  background-position: -300% 0;
+}
+
+.insect-5 {
+  background-position: -400% 0;
+}
+
+.insect-6 {
+  background-position: 0 -100%;
+}
+
+.insect-7 {
+  background-position: -100% -100%;
+}
+
+.insect-8 {
+  background-position: -200% -100%;
+}
+
+.insect-9 {
+  background-position: -300% -100%;
+}
+
+.insect-10 {
+  background-position: -400% -100%;
 }
