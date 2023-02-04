@@ -37,7 +37,6 @@ h1 {
   color: #516dff;
   padding: 15px 20px;
   font-family: inherit;
-  cursor: pointer;
 }
 
 .btn:hover {
@@ -54,6 +53,8 @@ h1 {
   background-image: url("insects.png");
   background-size: 500%;
   image-rendering: pixelated;
+  cursor: pointer;
+  user-select: none !important;
 }
 
 .insect-1 {
@@ -120,4 +121,46 @@ h1 {
 
 .choose-insect-btn:active {
   transform: scale(1);
+}
+
+.game-container {
+  position: relative;
+}
+
+#time,
+#score {
+  position: absolute;
+  top: 20px;
+}
+
+#time {
+  left: 20px;
+}
+
+#score {
+  right: 20px;
+}
+
+#message {
+  line-height: 1.7;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  padding: 20px;
+  z-index: 100;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(-100vh);
+}
+
+#message.visible {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.game-container .sprite {
+  user-select: none;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  transform: rotate(0);
 }
