@@ -10,9 +10,13 @@ body {
   font-family: "Press Start 2P", sans-serif;
   justify-content: center;
   height: 100vh;
-  /* overflow: hidden; */
+  overflow: hidden;
   margin: 0;
   text-align: center;
+}
+
+h1 {
+  line-height: 1.5;
 }
 
 .screen {
@@ -22,6 +26,9 @@ body {
   justify-content: center;
   height: 100vh;
   width: 100vw;
+}
+.screen.up {
+  margin-top: -100vh;
 }
 
 .btn {
@@ -90,9 +97,27 @@ body {
 }
 
 .insects-list {
-  list-style-type: none;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.insects-list li {
+  margin: 10px;
+}
+
+.choose-insect-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.choose-insect-btn:hover {
+  transform: scale(1.2);
+}
+
+.choose-insect-btn:active {
+  transform: scale(1);
 }
