@@ -1,56 +1,56 @@
 # 50 projects in 50 days course
 
-This is a repository for all projects made in the course.
+A collection of projects made following the 50 projects in 50 days mini-course.
 
-|  #  | Project                                                                                                                          |
-| :-: | -------------------------------------------------------------------------------------------------------------------------------- |
-|  1  | [Expanding Cards](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/expanding-cards)                           |
-|  2  | [Progress Steps](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/progress-steps)                             |
-|  3  | [Rotating Navigation](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/rotating-navigation)                   |
-|  4  | [Hidden Search Widget](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/hidden-search-widget)                 |
-|  5  | [Blurry Loading](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/blurry-loading)                             |
-|  6  | [Scroll Animation](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/scroll-animation)                         |
-|  7  | [Split Landing Page](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/split-landing-page)                     |
-|  8  | [Form Wave Animation](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/form-wave-animation)                   |
-|  9  | [Sound Board](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/sound-board)                                   |
-| 10  | [Dad Jokes](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/dad-jokes)                                       |
-| 11  | [Event Keycodes](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/event-keycodes)                             |
-| 12  | [Faq Collapse](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/faq-collapse)                                 |
-| 13  | [Random Choice Picker](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/random-choice-picker)                 |
-| 14  | [Animated Navigation](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/animated-navigation)                   |
-| 15  | [Incrementing Counter](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/incrementing-counter)                 |
-| 16  | [Drink Water](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/drink-water)                                   |
-| 17  | [Movie App](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/movie-app)                                       |
-| 18  | [Background Slider](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/background-slider)                       |
-| 19  | [Theme Clock](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/theme-clock)                                   |
-| 20  | [Button Ripple Effect](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/button-ripple-effect)                 |
-| 21  | [Drag N Drop](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/drag-n-drop)                                   |
-| 22  | [Drawing App](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/drawing-app)                                   |
-| 23  | [Kinetic Loader](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/kinetic-css-loader)                         |
-| 24  | [Content Placeholder](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/content-placeholder)                   |
-| 25  | [Sticky Navbar](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/sticky-navbar)                               |
-| 26  | [Double Vertical Slider](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/double-vertical-slider)             |
-| 27  | [Toast Notification](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/toast-notification)                     |
-| 28  | [Github Profiles](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/github-profiles)                           |
-| 29  | [Double Click Heart](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/double-click-heart)                     |
-| 30  | [Auto Text Effect](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/auto-text-effect)                         |
-| 31  | [Password Generator](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/password-generator)                     |
-| 32  | [Good Cheap Fast](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/good-cheap-fast-checkboxes)                |
-| 33  | [Notes App](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/notes-app)                                       |
-| 34  | [Animated Countdown](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/animated-countdown)                     |
-| 35  | [Image Carousel](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/image-carousel)                             |
-| 36  | [Hoverboard](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/hoverboard)                                     |
-| 37  | [Pokedex](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/pokedex)                                           |
-| 38  | [Mobile Tab Navigation](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/mobile-tab-navigation)               |
-| 39  | [Password Strength Background](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/password-strength-background) |
-| 40  | [3d Background Boxes](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/3d-background-boxes)                   |
-| 41  | [Verify Account Ui](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/verify-account-ui)                       |
-| 42  | [Live User Filter](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/live-user-filter)                         |
-| 43  | [Feedback Ui Design](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/feedback-ui-design)                     |
-| 44  | [Custom Range Slider](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/custom-range-slider)                   |
-| 45  | [Netflix Mobile Navigation](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/netflix-navigation)              |
-| 46  | [Quiz App](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/quiz-app)                                         |
-| 47  | [Testimonial Box Switcher](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/testimonial-box-switcher)         |
-| 48  | [Random Image Feed](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/random-image-feed)                       |
-| 49  | [Todo List](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/todo-list)                                       |
-| 50  | [Insect Catch Game](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/insect-catch-game)                       |
+|  #  | Project                                                                                                                                       |
+| :-: | --------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+|  1  | [Expanding Cards](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/expanding-cards)                           | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/expanding-cards)              |
+|  2  | [Progress Steps](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/progress-steps)                             | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/progress-steps)               |
+|  3  | [Rotating Navigation](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/rotating-navigation)                   | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/rotating-navigation)          |
+|  4  | [Hidden Search Widget](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/hidden-search-widget)                 | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/hidden-search-widget)         |
+|  5  | [Blurry Loading](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/blurry-loading)                             | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/blurry-loading)               |
+|  6  | [Scroll Animation](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/scroll-animation)                         | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/scroll-animation)             |
+|  7  | [Split Landing Page](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/split-landing-page)                     | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/split-landing-page)           |
+|  8  | [Form Wave Animation](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/form-wave-animation)                   | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/form-wave-animation)          |
+|  9  | [Sound Board](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/sound-board)                                   | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/sound-board)                  |
+| 10  | [Dad Jokes](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/dad-jokes)                                       | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/dad-jokes)                    |
+| 11  | [Event Keycodes](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/event-keycodes)                             | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/event-keycodes)               |
+| 12  | [Faq Collapse](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/faq-collapse)                                 | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/faq-collapse)                 |
+| 13  | [Random Choice Picker](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/random-choice-picker)                 | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/random-choice-picker)         |
+| 14  | [Animated Navigation](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/animated-navigation)                   | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/animated-navigation)          |
+| 15  | [Incrementing Counter](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/incrementing-counter)                 | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/incrementing-counter)         |
+| 16  | [Drink Water](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/drink-water)                                   | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/drink-water)                  |
+| 17  | [Movie App](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/movie-app)                                       | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/movie-app)                    |
+| 18  | [Background Slider](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/background-slider)                       | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/background-slider)            |
+| 19  | [Theme Clock](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/theme-clock)                                   | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/theme-clock)                  |
+| 20  | [Button Ripple Effect](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/button-ripple-effect)                 | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/button-ripple-effect)         |
+| 21  | [Drag N Drop](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/drag-n-drop)                                   | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/drag-n-drop)                  |
+| 22  | [Drawing App](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/drawing-app)                                   | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/drawing-app)                  |
+| 23  | [Kinetic Loader](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/kinetic-css-loader)                         | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/kinetic-css-loader)           |
+| 24  | [Content Placeholder](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/content-placeholder)                   | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/content-placeholder)          |
+| 25  | [Sticky Navbar](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/sticky-navbar)                               | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/sticky-navbar)                |
+| 26  | [Double Vertical Slider](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/double-vertical-slider)             | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/double-vertical-slider)       |
+| 27  | [Toast Notification](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/toast-notification)                     | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/toast-notification)           |
+| 28  | [Github Profiles](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/github-profiles)                           | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/github-profiles)              |
+| 29  | [Double Click Heart](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/double-click-heart)                     | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/double-click-heart)           |
+| 30  | [Auto Text Effect](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/auto-text-effect)                         | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/auto-text-effect)             |
+| 31  | [Password Generator](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/password-generator)                     | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/password-generator)           |
+| 32  | [Good Cheap Fast](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/good-cheap-fast-checkboxes)                | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/good-cheap-fast-checkboxes)   |
+| 33  | [Notes App](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/notes-app)                                       | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/notes-app)                    |
+| 34  | [Animated Countdown](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/animated-countdown)                     | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/animated-countdown)           |
+| 35  | [Image Carousel](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/image-carousel)                             | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/image-carousel)               |
+| 36  | [Hoverboard](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/hoverboard)                                     | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/hoverboard)                   |
+| 37  | [Pokedex](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/pokedex)                                           | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/pokedex)                      |
+| 38  | [Mobile Tab Navigation](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/mobile-tab-navigation)               | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/mobile-tab-navigation)        |
+| 39  | [Password Strength Background](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/password-strength-background) | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/password-strength-background) |
+| 40  | [3d Background Boxes](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/3d-background-boxes)                   | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/3d-background-boxes)          |
+| 41  | [Verify Account Ui](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/verify-account-ui)                       | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/verify-account-ui)            |
+| 42  | [Live User Filter](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/live-user-filter)                         | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/live-user-filter)             |
+| 43  | [Feedback Ui Design](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/feedback-ui-design)                     | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/feedback-ui-design)           |
+| 44  | [Custom Range Slider](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/custom-range-slider)                   | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/custom-range-slider)          |
+| 45  | [Netflix Mobile Navigation](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/netflix-navigation)              | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/netflix-navigation)           |
+| 46  | [Quiz App](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/quiz-app)                                         | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/quiz-app)                     |
+| 47  | [Testimonial Box Switcher](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/testimonial-box-switcher)         | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/testimonial-box-switcher)     |
+| 48  | [Random Image Feed](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/random-image-feed)                       | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/random-image-feed)            |
+| 49  | [Todo List](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/todo-list)                                       | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/todo-list)                    |
+| 50  | [Insect Catch Game](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/insect-catch-game)                       | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/insect-catch-game)            |
