@@ -1,3 +1,10 @@
+:root {
+  --clr-primary-blue: #2a9d8f;
+  --clr-primary-dark-blue: #264653;
+
+  --clr-neutral-white: #fff;
+}
+
 /* Box sizing rules */
 *,
 *::before,
@@ -35,6 +42,12 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  background-image: linear-gradient(
+    to bottom,
+    var(--clr-primary-blue),
+    var(--clr-primary-dark-blue)
+  );
+  font-family: "Courier New", Courier, monospace;
 }
 
 /* A elements that don't have a class get default styles */
@@ -71,4 +84,72 @@ select {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+/* components */
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.card {
+  display: block;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+/* utilities */
+
+.flow > * + * {
+  margin-top: 1rem;
+}
+
+.clr-primary-blue {
+  color: var(--clr-primary-blue);
+}
+
+.clr-primary-dark-blue {
+  color: var(--clr-primary-dark-blue);
+}
+
+.clr-neutral-white {
+  color: var(--clr-neutral-white);
+}
+
+.bg-primary-blue {
+  background-color: var(--clr-primary-blue);
+}
+
+.bg-primary-dark-blue {
+  background-color: var(--clr-primary-dark-blue);
+}
+
+.bg-neutral-white {
+  background-color: var(--clr-neutral-white);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.padding-32 {
+  padding: 2rem;
+}
+
+.shadow-1 {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.border-1 {
+  border-radius: 5px;
 }
