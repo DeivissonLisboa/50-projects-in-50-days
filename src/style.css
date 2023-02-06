@@ -88,10 +88,14 @@ select {
 
 /* components */
 
+main {
+  margin: 0 auto;
+}
+
 section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: grid;
+  gap: 1rem;
+  margin-top: 3em;
 }
 
 h1 {
@@ -109,10 +113,6 @@ p {
 }
 
 /* utilities */
-
-.flow > * + * {
-  margin-top: 1rem;
-}
 
 .clr-primary-blue {
   color: var(--clr-primary-blue);
@@ -152,4 +152,20 @@ p {
 
 .border-1 {
   border-radius: 5px;
+}
+
+@media (30em < width < 40em) {
+  main {
+    max-width: 100%;
+  }
+
+  section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (40em < width) {
+  section {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
