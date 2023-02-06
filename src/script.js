@@ -55,7 +55,7 @@ const PROJECTS = [
 PROJECTS.forEach((project) => {
   let card = `
     <a
-      class="card clr-neutral-white text-center bg-primary-blue border-1 shadow-1"
+      class="card fs-2 text-center bg-primary-blue border-1 shadow-1"
       href="./src/projects/${project}/"
     >
       <img src="./src/screenshots/${project}.png" alt="" />

@@ -98,12 +98,8 @@ section {
   margin-top: 3em;
 }
 
-h1 {
-  font-size: 2.5rem;
-}
-
-p {
-  font-size: 1.5rem;
+a {
+  color: var(--clr-neutral-white);
 }
 
 .card {
@@ -114,6 +110,11 @@ p {
 
 .card:hover {
   transform: scale(1.1);
+}
+
+footer {
+  width: 100vw;
+  margin-top: 1rem;
 }
 
 /* utilities */
@@ -140,6 +141,18 @@ p {
 
 .bg-neutral-white {
   background-color: var(--clr-neutral-white);
+}
+
+.fs-1 {
+  font-size: 1rem;
+}
+
+.fs-2 {
+  font-size: 1.5rem;
+}
+
+.fs-3 {
+  font-size: 2.5rem;
 }
 
 .text-center {
