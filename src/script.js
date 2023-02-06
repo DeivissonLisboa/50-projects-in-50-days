@@ -57,6 +57,7 @@ PROJECTS.forEach((project) => {
     <a
       class="card fs-2 text-center bg-primary-blue border-1 shadow-1"
       href="./src/projects/${project}/"
+      target="_blank"
     >
       <img src="./src/screenshots/${project}.png" alt="" />
       <p>${project}</p>
