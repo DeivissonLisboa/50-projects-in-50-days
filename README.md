@@ -2,7 +2,7 @@
 
 A collection of projects made following the 50 projects in 50 days mini-course.
 
-|  #  | Project                                                                                                                                       |
+|  #  | Project                                                                                                                                       |                                                                                                                 |
 | :-: | --------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
 |  1  | [Expanding Cards](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/expanding-cards)                           | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/expanding-cards)              |
 |  2  | [Progress Steps](https://github.com/DeivissonLisboa/50-projects-in-50-days/tree/main/src/projects/progress-steps)                             | [Live demo](https://deivissonlisboa.github.io/50-projects-in-50-days/src/projects/progress-steps)               |
